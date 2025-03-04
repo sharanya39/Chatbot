@@ -1,36 +1,36 @@
-🗨️ Simple Chatbot using Mixtral-8x7b-32768 with Groq Inference
+#🗨️ Simple Chatbot using  LLM  with Groq Inference
 This is a simple chatbot application powered by Mixtral-8x7b-32768 — a cutting-edge language model.
 The chatbot uses Groq for ultra-fast AI inference, enabling rapid and efficient responses.
 .
 
-🌟 What is Groq?
+##🌟 What is Groq?
 Groq is a specialized inference platform designed to run large AI models (like Mixtral, LLaMA, etc.) much faster and more efficiently than traditional GPUs (like NVIDIA) or CPUs.
 
-Key Use Cases
-Large Language Models (LLMs) — Run models like Mixtral with ultra-low latency.
+##Key Use Cases
+###Large Language Models (LLMs) — Run models like Mixtral with ultra-low latency.
 Real-time AI Applications, including:
 AI-powered chatbots and customer support assistants.
 Voice assistants.
 AI search engines.
 
-📥 How to Set Up & Run
-1️⃣ Clone the Repository
-      git clone https://github.com/sharanya39/Chatbot.git
+##📥 How to Set Up & Run
+###1️⃣ Clone the Repository
+     #### git clone https://github.com/sharanya39/Chatbot.git
       cd Chatbot
-2️⃣ Get Your Groq API Key
+###2️⃣ Get Your Groq API Key
   Visit: Groq Console - API Keys
   Generate a new API key.
   Keep the key safe, as you will need it to run this project.
 
-3️⃣ Create a .env File
+###3️⃣ Create a .env File
   In the same folder where app.py is located, create a file named .env.
   Add the following line to the .env file:
         GROQ_API_KEY=your-groq-api-key-here
   Replace your-groq-api-key-here with your actual key
-4️⃣ Install Required Libraries
+###4️⃣ Install Required Libraries
   Run the following command to install all necessary dependencies:
 
-          pip install -r requirements.txt
+         ''' pip install -r requirements.txt '''
     This will install:
     Streamlit
     Langchain
@@ -39,7 +39,7 @@ AI search engines.
     OpenAI
     python-dotenv
     Other required packages
-5️⃣ Run the Application
+###5️⃣ Run the Application
   After ensuring there are no errors during installation, you can start the chatbot by running:
       streamlit run app.py
   This will open a webpage in your browser (localhost) where you can interact with the chatbot.
