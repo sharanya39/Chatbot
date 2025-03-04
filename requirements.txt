@@ -1,0 +1,8 @@
+langchain 
+langchain-community
+langchain-groq
+langchainhub 
+groq 
+openai 
+python-dotenv
+streamlit
