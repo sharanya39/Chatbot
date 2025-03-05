@@ -1,7 +1,8 @@
 🗨️ Simple Chatbot using  LLM  with Groq Inference
 This is a simple chatbot application powered by Mixtral-8x7b-32768 — a cutting-edge language model.
 The chatbot uses Groq for ultra-fast AI inference, enabling rapid and efficient responses.
-.
+scrrenshot of the chatbot created
+![alt text](chatbot.png)    ![alt text](<chatbot 2.png>)
 
 🌟 What is Groq?
 Groq is a specialized inference platform designed to run large AI models (like Mixtral, LLaMA, etc.) much faster and more efficiently than traditional GPUs (like NVIDIA) or CPUs.
@@ -30,7 +31,7 @@ AI search engines.
 4️⃣ Install Required Libraries
   Run the following command to install all necessary dependencies:
 
-         ''' pip install -r requirements.txt '''
+          pip install -r requirements.txt 
     This will install:
     Streamlit
     Langchain
@@ -48,7 +49,7 @@ The chatbot is powered by Mixtral-8x7b-32768, known for its high performance and
 Groq's inference engine ensures ultra-fast responses.
 The Streamlit UI provides a simple interface for asking questions and receiving responses in real-time.
 ✅ Example Interaction
-User: What is Groq?
-Bot: Groq is an AI inference platform that delivers ultra-fast performance for large AI models...
+User: 
+Bot: 
 
 
